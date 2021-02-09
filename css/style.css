@@ -16,7 +16,7 @@ header{
 .container-fluid {
   width: 90%;
   margin: 0 auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
 }
 
@@ -54,6 +54,7 @@ header{
   background-color: #fff;
   width: 80%;
   margin: 10px auto;
+  padding: 20px;
 }
 
 .middle_header_right_box h3{
@@ -65,4 +66,37 @@ header{
   margin: 10px auto;
   width: 80%;
 
+}
+
+button {
+  position: relative;
+}
+button i {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  color: #005CFF;
+}
+
+small a {
+  text-decoration: underline;
+  color: #005CFF;
+}
+
+.bottom_header {
+  background-color: #f3f5f9;
+  padding: 25px 0 15px;
+
+}
+
+.bottom_header span {
+  color: #aaaaaa;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+.bottom_header a {
+  color: #005CFF;
+  font-weight: 500;
 }

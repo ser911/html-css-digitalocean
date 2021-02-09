@@ -11,6 +11,7 @@ margin-top: 4px;
 
 header{
   margin-top: 20px;
+
 }
 
 
@@ -38,12 +39,20 @@ header{
 
 .middle_header{
   background-color: #005CFF;
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .middle_header_left *{
   color: #fff;
 }
 
+.middle_header h1 {
+  font-size: 58px;
+}
+.middle_header p {
+  font-size: 18px;
+}
 .middle_header_right_box {
   background-color: #fff;
   width: 55%;

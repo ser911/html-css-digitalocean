@@ -23,7 +23,7 @@ header{
   padding-top: 11px;
 }
 .side_nav{
-  padding-top: 8px;
+  text-align: center;
 
 }
 
@@ -34,6 +34,7 @@ header{
   padding: 2px 8px;
   color: #005CFF;
 }
+
 
 /* MIDDLE_HEADER */
 
@@ -65,6 +66,10 @@ header{
 .middle_header_right_box h3{
   margin-top: 10px;
 
+}
+
+#get_started{
+  color: #005CFF;
 }
 .middle_header_right_box input, .middle_header_right_box button{
   display: block;
@@ -110,3 +115,47 @@ small a {
 .top_main{
 
 }
+
+/*
+#hamburger{
+  color: #005CFF;
+  vertical-align: super;
+} */
+
+
+
+/* MEDIA QUERIES */
+
+/* MEDIUM DEVICES  */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+  .top_header img {
+  height: 26px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+
+#hamburger{
+  color: #005CFF;
+
+}
+button img {
+  height: 16px;
+  color: #005CFF;
+  position: relative;
+  right: 15px;
+}
+
+
+
+
+
+}
+
+/* /MEDIUM DEVICES  */
+
+/* SMALL DEVICES */
+
+/* /SMALL DEVICES */

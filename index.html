@@ -19,28 +19,34 @@
     <section class="top_header">
     <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-offset-2 col-lg-1">
+
+      <div class="col-lg-offset-2 col-lg-1 col-md-6">
         <img src="img/logo.png" alt="logo">
       </div>
-      <div class="col-lg-4 text-center">
-<nav>
-  <ul class=" main_nav list-inline">
+
+      <div class="col-lg-4 hidden-md text-center">
+        <nav>
+  <ul class="main_nav list-inline ">
     <li>Products <i class="fas fa-chevron-down"></i></li>
     <li>Customers</li>
     <li>Community <i class="fas fa-chevron-down"></i></li>
     <li>Pricing</li>
   </ul>
-</nav>
+      </nav>
       </div>
-      <div class="col-lg-4 text-center">
+
+      <div class="col-lg-4 col-md-6 side_nav">
         <nav>
-          <ul class=" side_nav list-inline">
+          <ul class="list-inline hidden-md">
             <li>Docs</li>
             <li>Support <i class="fas fa-chevron-down"></i></li>
             <li>Login</li>
             <li><button type="button" name="button">Sign up</button></li>
           </ul>
         </nav>
+          <div class="hidden-lg visible-md text-right">
+          <i class="fas fa-bars" id="hamburger"></i>
+          </div>
       </div>
 
     </div>
@@ -50,14 +56,14 @@
       <div class="container-fluid">
 <div class="row middle_header">
 
-      <div class=" middle_header_left col-lg-offset-2 col-lg-4">
+      <div class=" middle_header_left col-lg-offset-2 col-lg-4 col-md-6 col-md-offset-1">
         <h1>The simplest cloud <br>   platform for <br>   developers & teams</h1>
         <p>Deploy, manage and scale cloud applications faster and more <br> efficiently on DigitalOcean. We make managing infrastructure <br> easy for teams and businesses, whether you're runnning one <br> virtual machine or ten thousand.</p>
       </div>
-      <div class=" middle_header_right col-lg-offset-2 col-lg-4">
+      <div class=" middle_header_right col-lg-offset-2 col-lg-4 col-md-5">
          <div class="middle_header_right_box text-center">
            <h3>Deploy your app in seconds.</h3>
-           <h3>Get started now.</h3>
+           <h3 style= "color: #005CFF;">Get started now.</h3>
            <input type="text" name="Email" value="" placeholder="Email">
            <input type="text" name="Password" value="" placeholder="Password">
            <button>Create your account</button>

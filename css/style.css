@@ -38,9 +38,10 @@ header{
 /* MIDDLE_HEADER */
 
 .middle_header{
-  background-color: #005CFF;
+  background-image: url(../img/bg-hero.svg);
+  background-size: cover;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 60px;
 }
 
 .middle_header_left *{
@@ -75,11 +76,11 @@ header{
 button {
   position: relative;
 }
-button i {
-  position: absolute;
-  top: 2px;
-  left: 2px;
+button img {
+  height: 16px;
   color: #005CFF;
+  position: relative;
+  right: 30px;
 }
 
 small a {
@@ -103,4 +104,9 @@ small a {
 .bottom_header a {
   color: #005CFF;
   font-weight: 500;
+}
+
+/* TOP_MAIN */
+.top_main{
+
 }

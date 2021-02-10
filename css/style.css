@@ -107,20 +107,33 @@ small a {
   color: #005CFF;
   font-weight: 500;
 }
+.bottom_header img {
 
-/* TOP_MAIN */
-.top_main{
+height: 100%;
 
 }
 
-/*
-#hamburger{
-  color: #005CFF;
-  vertical-align: super;
-} */
+/* TOP_MAIN */
+#first_p{
+  padding-bottom: 35px;
+}
+.task_list{
+  border-left: 1px solid #ddd;
+  width: auto;
+}
+.task_list li{
+text-decoration: none;
+display: block;
+padding-bottom: 10px;
+}
 
+.top_main img {
+  height: 30px;
+}
 
-
+.center{
+  text-align: center;
+}
 /* MEDIA QUERIES */
 
 /* MEDIUM DEVICES  */
@@ -186,3 +199,35 @@ button img {
 }
 
 /* /SMALL DEVICES */
+
+/* X-SMALL DEVICES */
+@media screen and (max-width: 767px) {
+
+
+  #hamburger{
+    color: #005CFF;
+    position: relative;
+    bottom: 20px;
+
+  }
+  .middle_header h1 {
+    font-size: 48px;
+  }
+.middle_header_left {
+  text-align: center;
+  }
+.middle_header_right_box {
+margin: 10px auto;
+    }
+}
+.xs_left{
+  text-align: left;
+}
+.xs_right{
+  text-align: right;
+}
+.xs_center{
+  margin: 0 auto;
+}
+
+/* /X-SMALL DEVICES */

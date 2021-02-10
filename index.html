@@ -24,7 +24,7 @@
         <img src="img/logo.png" alt="logo">
       </div>
 
-      <div class="col-lg-4 hidden-md hidden-sm text-center">
+      <div class="col-lg-4 hidden-md hidden-sm hidden-xs text-center">
         <nav>
   <ul class="main_nav list-inline ">
     <li>Products <i class="fas fa-chevron-down"></i></li>
@@ -37,14 +37,14 @@
 
       <div class="col-lg-4 col-md-6 col-sm-6 side_nav">
         <nav>
-          <ul class="list-inline hidden-md hidden-sm">
+          <ul class="list-inline hidden-md hidden-xs hidden-sm">
             <li>Docs</li>
             <li>Support <i class="fas fa-chevron-down"></i></li>
             <li>Login</li>
             <li><button type="button" name="button">Sign up</button></li>
           </ul>
         </nav>
-          <div class="hidden-lg visible-md visible-sm text-right">
+          <div class="hidden-lg visible-md visible-sm visible-xs text-right">
           <i class="fas fa-bars" id="hamburger"></i>
           </div>
       </div>
@@ -55,12 +55,12 @@
     <section>
       <div class="container-fluid">
 <div class="row middle_header">
+  <div class=" middle_header_left col-lg-offset-2 col-lg-4 col-md-6 col-md-offset-1 col-sm-6 col-xs-12 ">
 
-      <div class=" middle_header_left col-lg-offset-2 col-lg-4 col-md-6 col-md-offset-1 col-sm-6">
         <h1>The simplest cloud <br>   platform for <br>   developers & teams</h1>
         <p>Deploy, manage and scale cloud applications faster and more <br> efficiently on DigitalOcean. We make managing infrastructure <br> easy for teams and businesses, whether you're runnning one <br> virtual machine or ten thousand.</p>
       </div>
-      <div class=" middle_header_right col-lg-offset-2 col-lg-4 col-md-5 col-sm-6">
+      <div class=" middle_header_right col-lg-offset-2 col-lg-4 col-md-5 col-sm-6 col-xs-12 xs_center">
          <div class="middle_header_right_box text-center">
            <h3>Deploy your app in seconds.</h3>
            <h3 style= "color: #005CFF;">Get started now.</h3>
@@ -86,16 +86,34 @@
 
         </div>
         <div class="row bottom_header">
-          <div class=></div>
-          <div class=" col-lg-offset-2 col-lg-8 text-center col-lg-offset-2">
-            <img src="https://images.prismic.io/www-static/591cf605-46aa-4a7b-8af5-90036c252c97_docker-bab60eeb.svg?auto=compress,format" alt="">
-            <img src="https://images.prismic.io/www-static/da244a8e-2546-47b1-aae2-b9824c657708_gitlab-166e2067.svg?auto=compress,format" alt="">
-            <img src="https://images.prismic.io/www-static/b3f152c0-5465-45ba-80ab-2cdd258e6bee_slack-e20293da.svg?auto=compress,format" alt="">
-            <img src="https://images.prismic.io/www-static/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg?auto=compress,format" alt="">
-            <img src="https://images.prismic.io/www-static/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg?auto=compress,format" alt="">
-            <img src="https://images.prismic.io/www-static/1583c145-22f8-402c-96f8-3af919a0df25_splunklogo.svg?auto=compress,format" alt="">
-          </div>
-          <div class=></div>
+            <div class="col-lg-8 col-lg-offset-2">
+              <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 text-center xs_right">
+                  <img src="https://images.prismic.io/www-static/591cf605-46aa-4a7b-8af5-90036c252c97_docker-bab60eeb.svg?auto=compress,format" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 text-center xs_left">
+                  <img src="https://images.prismic.io/www-static/da244a8e-2546-47b1-aae2-b9824c657708_gitlab-166e2067.svg?auto=compress,format" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 text-center xs_right">
+                  <img src="https://images.prismic.io/www-static/b3f152c0-5465-45ba-80ab-2cdd258e6bee_slack-e20293da.svg?auto=compress,format" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 text-center xs_left">
+                  <img src="https://images.prismic.io/www-static/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg?auto=compress,format" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 text-center xs_right">
+                  <img src="https://images.prismic.io/www-static/9351f07e-afbc-439a-a75f-3eca82be9c0e_hashicorp-4431df79.svg?auto=compress,format" alt="">
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 text-center xs_left">
+                  <img src="https://images.prismic.io/www-static/1583c145-22f8-402c-96f8-3af919a0df25_splunklogo.svg?auto=compress,format" alt="">
+                </div>
+              </div>
+            </div>
+
 
         </div>
         <div class="row bottom_header">
@@ -109,8 +127,59 @@
 
   <main>
 <div class="top_main">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 text-center col-sm-12">
+        <h3>Deploy and scale seamlessly</h3>
+        <p id="first_p">Our optimized configuration process saves your team time when running and scaling distributed applications,AI <br> &amp; machine learning workloads, hosted services, client websites, or CI/CD environments </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+         <div class="row second_row">
+             <div class="col-lg-offset-3 col-lg-1 col-md-offset-1 col-md-2 col-sm-offset-1 col-sm-3 col-xs-12 xs_left">
+               <ul class="task_list">
+                 <li>Deploy</li>
+                 <li>Manage</li>
+                 <li>Secure</li>
+                 <li>Scale</li>
+                 <li>Monitor</li>
+               </ul>
+             </div>
+             <div class="col-lg-2 center col-md-3 col-sm-3 col-xs-12 xs_left">
+                <img src="img/cluster-deploy.svg" alt="">
+                <h5>Cluster deployments</h5>
+                <p>Provision multiple Droplets(virtual machines) in seconds with our control panel, CLI, or directly against our API</p>
+             </div>
+             <div class="col-lg-2 center col-md-3 col-sm-3 col-xs-12 xs_left">
+                 <img src="img/optimized-compute.svg" alt="">
+                 <h5>Optimized compute types</h5>
+                 <p>Get the compute resources you need with Standard or Optimized Droplets</p>
+             </div>
+         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-offset-4 col-lg-2 center col-md-offset-3 col-md-3 col-sm-offset-4 col-sm-3 col-xs-12 xs_left">
+        <img src="img/one-click.svg" alt="">
+        <h5>One-click apps</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+      </div>
+
+      <div class="col-lg-2 center col-md-3 col-sm-3 col-xs-12 xs_left">
+        <img src="img/global.svg" alt="">
+        <h5>Global availability</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+      </div>
+
+
+    </div>
+  </div>
 
 </div>
+
   </main>
 
   <footer>

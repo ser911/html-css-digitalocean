@@ -107,11 +107,8 @@ small a {
   color: #005CFF;
   font-weight: 500;
 }
-.bottom_header img {
 
-height: 100%;
 
-}
 
 /* TOP_MAIN */
 #first_p{
@@ -220,7 +217,7 @@ button img {
 margin: 10px auto;
     }
 }
-.xs_left{
+/* .xs_left{
   text-align: left;
 }
 .xs_right{
@@ -228,6 +225,6 @@ margin: 10px auto;
 }
 .xs_center{
   margin: 0 auto;
-}
+} */
 
 /* /X-SMALL DEVICES */

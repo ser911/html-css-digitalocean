@@ -5,8 +5,8 @@ body{
 /* TOP_HEADER */
 
 .top_header img {
-height: 28px;
-margin-top: 4px;
+height: 20px;
+
 }
 
 header{
@@ -20,10 +20,10 @@ header{
 
 }
 .main_nav{
-  padding-top: 11px;
+
 }
 .side_nav{
-  text-align: center;
+  text-align: right;
 
 }
 
@@ -42,7 +42,7 @@ header{
   background-image: url(../img/bg-hero.svg);
   background-size: cover;
   padding-top: 35px;
-  padding-bottom: 60px;
+  padding-bottom: 35px;
 }
 
 .middle_header_left *{
@@ -57,10 +57,9 @@ header{
 }
 .middle_header_right_box {
   background-color: #fff;
-  width: 55%;
-  margin: 10px;
-  padding: 20px;
+  width: 100%;
   border-radius: 5px;
+  padding: 25px 0;
 }
 
 .middle_header_right_box h3{
@@ -84,7 +83,9 @@ button img {
   position: relative;
   right: 30px;
 }
-
+#google_btn{
+  margin-bottom: 25px;
+}
 small a {
   text-decoration: underline;
   color: #005CFF;
@@ -92,8 +93,12 @@ small a {
 
 .bottom_header {
   background-color: #f3f5f9;
-  padding: 25px 0 15px;
+  padding: 20px 0;
 
+}
+
+.logo_gallery{
+  padding: 35px 0;
 }
 
 .bottom_header span {

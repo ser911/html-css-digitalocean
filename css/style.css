@@ -143,10 +143,8 @@ padding-bottom: 10px;
 
 
   .top_header img {
-  height: 26px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 20px;
+
   }
 
 #hamburger{
@@ -160,9 +158,20 @@ button img {
   right: 15px;
 }
 
+.middle_header h1 {
+  font-size: 36px;
+  padding-bottom: 10px;
+}
+
+.middle_header p {
+  font-size: 14px;
+}
 
 
 
+.md_center{
+  text-align: center;
+}
 
 }
 
@@ -172,10 +181,8 @@ button img {
 @media screen and (min-width: 768px) and (max-width:991px) {
 
   .top_header img {
-  height: 26px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  height: 20px;
+
   }
 
   #hamburger{
@@ -198,6 +205,10 @@ button img {
     right: 9px;
   }
 
+  .logo_gallery img{
+    height: 50px;
+  }
+
 }
 
 /* /SMALL DEVICES */
@@ -212,24 +223,26 @@ button img {
     bottom: 20px;
 
   }
+
+  .middle_header{
+    padding: 10px;
+  }
   .middle_header h1 {
-    font-size: 48px;
+    font-size: 32px;
+  }
+  .middle_header p {
+    font-size: 14px;
   }
 .middle_header_left {
   text-align: center;
   }
 .middle_header_right_box {
 margin: 10px auto;
+width: 80%;
     }
 }
-/* .xs_left{
+.xs_left{
   text-align: left;
 }
-.xs_right{
-  text-align: right;
-}
-.xs_center{
-  margin: 0 auto;
-} */
 
 /* /X-SMALL DEVICES */

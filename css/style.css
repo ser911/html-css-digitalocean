@@ -165,8 +165,13 @@ padding-bottom: 10px;
 }
 .middle_main img {
 padding-bottom: 20px;
+width: 70%;
 
 }
+#left_arrow, #right_arrow{
+  margin-top: 215px;
+}
+
 .bullet{
   color: #005CFF;
 }
@@ -253,7 +258,10 @@ button img {
 }
 
 .middle_main img{
-  width: 600px;
+  width: 70%;
+}
+#left_arrow, #right_arrow{
+  margin-top: 176px;
 }
 
 }
@@ -303,10 +311,13 @@ button img {
   }
 
   .middle_main img {
-   width: 400px;
+   width: 90%;
+  }
+  #left_arrow, #right_arrow{
+    margin-top: 173px;
   }
   .small_bottom_margin{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
 }
@@ -337,6 +348,21 @@ button img {
 margin: 10px auto;
 width: 80%;
     }
+    .middle_main img {
+      width: 70%;
+    }
+    #left_arrow, #right_arrow{
+      margin-top: 138px;
+    }
+
+    .t_pad{
+      padding: 5px 0;
+    }
+    .xs_margin{
+      margin: 0 10px 20px;
+    }
+
+
     /* .xs_left{
       text-align: left;
     } */

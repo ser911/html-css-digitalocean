@@ -237,6 +237,9 @@ padding: 50px 0;
   display: block;
   padding-bottom: 20px;
 }
+.middle_footer_content a {
+  color: #005CFF;
+}
 #author{
   font-weight: 700;
   color: #005CFF;
@@ -358,6 +361,11 @@ button img {
 
 .top_footer span {
   font-size: 12px;
+}
+
+.bottom_footer ul {
+  margin-top: 20px;
+  padding-left: 0;
 }
 /* /MEDIUM DEVICES  */
 

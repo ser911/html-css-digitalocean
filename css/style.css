@@ -265,8 +265,44 @@ padding-bottom: 30px;
 
 .bottom_footer{
   background-color: #010059;
+  padding-top: 50px;
+}
+.bottom_footer img {
+  display: block;
+  margin-bottom: 7px;
+}
+.bottom_footer .legal_info {
+  color: #9ba4b4;
+  display: block;
+  padding-bottom: 0;
 }
 
+.bottom_footer small {
+  padding: 5px 0;
+  color: #686d76;
+
+}
+.bottom_footer .social {
+  margin-top: 5px;
+  color: #686d76;
+}
+.bottom_footer .social i {
+  margin-left: 5px;
+}
+#margin_cancel {
+  margin-left: 0;
+}
+
+.bottom_footer ul li {
+color: #9ba4b4;
+list-style-type: none;
+padding-bottom: 5px;
+}
+.bottom_footer .list_head {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
 /* MEDIA QUERIES */
 
 /* MEDIUM DEVICES  */

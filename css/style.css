@@ -1,8 +1,8 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
-h3 h5 {
-  color: #031b4e;
+h3, h5 {
+  color: #031B4E;
 }
 p{
   color: #5b6987;
@@ -167,8 +167,16 @@ padding-bottom: 20px;
 width: 70%;
 
 }
-#left_arrow, #right_arrow{
-  margin-top: 215px;
+
+#left_arrow{
+  padding-right: 20px;
+  font-size: 24px;
+  color: #5b6987;
+}
+#right_arrow{
+  padding-left: 20px;
+  font-size: 24px;
+  color: #031B4E;
 }
 
 .bullet{
@@ -313,6 +321,56 @@ padding-bottom: 5px;
   font-weight: 500;
   font-size: 16px;
 }
+
+.helper_{
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+}
+.helper_text{
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px;
+
+}
+
+.helper_text p {
+  color: #031B4E;
+  font-weight: 600;
+}
+.helper_shark {
+  display: inline-block;
+
+}
+.shark{
+  background-color: #0028ff;
+  position: relative;
+  top: 25px;
+  margin-left: 10px;
+  padding: 4px;
+  border-radius: 5px;
+}
+.helper_shark img {
+  height: 40px;
+
+
+}
+
+.triangle_{
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid #fff;
+  border-bottom: 5px solid transparent;
+  position: absolute;
+  top: 75%;
+  left: 275px;
+
+
+}
+
+
 /* MEDIA QUERIES */
 
 /* MEDIUM DEVICES  */
@@ -352,9 +410,6 @@ button img {
 
 .middle_main img{
   width: 70%;
-}
-#left_arrow, #right_arrow{
-  margin-top: 176px;
 }
 
 }
@@ -411,9 +466,16 @@ button img {
   .middle_main img {
    width: 90%;
   }
-  #left_arrow, #right_arrow{
-    margin-top: 173px;
+
+  #left_arrow{
+    padding-right: 15px;
+    font-size: 22px;
   }
+  #right_arrow{
+    padding-left: 15px;
+    font-size: 22px;
+  }
+
   .small_bottom_margin{
     margin-bottom: 30px;
   }
@@ -453,7 +515,7 @@ width: 80%;
       width: 70%;
     }
     #left_arrow, #right_arrow{
-      margin-top: 138px;
+      display: none;
     }
 
     .t_pad{
